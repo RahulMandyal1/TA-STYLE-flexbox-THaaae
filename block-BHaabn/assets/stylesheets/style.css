@@ -1,0 +1,126 @@
+/* css reset code starts from here  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* css reset code ends here  */
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size:18px;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+
+}
+
+/* Navigation section  starts  from here  */
+#navigation-section {
+    padding: 20px 7%;
+    background-color: #222946;
+}
+
+#navigation-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation-section nav .logo img{
+    width: 100px;
+}
+#navigation-section nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#navigation-section nav ul li{
+    margin-left: 20px;
+}
+#navigation-section nav ul li a{
+    text-transform: uppercase;
+}
+
+#navigation-section nav ul li .active{
+    color: rgb(47,184,102);
+}
+/* Navigation section ends here  */
+
+/* main starts from  here  */
+main{
+    padding: 20px 7%;
+}
+
+/* galllery section starts from here   */
+#gallerysection{
+    width: 100%;
+ 
+}
+#gallerysection h1{
+    font-size: 40px;
+    color: #521717;
+    text-align: center;
+    padding:  40px  0;
+}
+#gallerysection .gallery-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-flow:row wrap;
+}
+#gallerysection .gallery-container .gallery-images{
+    width: 400px;
+    height: 267px;
+    background-color: #fff;
+}
+
+#gallerysection .gallery-container .gallery-images img{
+    width: 100%;
+    height: 100%;
+}
+
+/* gallery section ends here   */
+/* main ends here  */
+
+/* footer section starts from here */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#222946 ;
+    padding: 40px 7%;
+}
+footer .social-links i{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    margin-left:10px;
+}

@@ -1,0 +1,58 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery </title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <!-- cusot font awesome cdn link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="navigation-section">
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#" class="active">gallery</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="gallerysection">
+            <h1> GALLERY</h1>
+          <div class="gallery-container">
+            <div class="gallery-images"><img src="assets/01.png" alt=""></div>
+            <div class="gallery-images"><img src="assets/02.png" alt=""></div>
+            <div class="gallery-images"><img src="assets/03.png" alt=""></div>
+            <div class="gallery-images"><img src="assets/04.png" alt=""></div>
+            <div class="gallery-images"><img src="assets/05.png" alt=""></div>
+            <div class="gallery-images"><img src="assets/06.png" alt=""></div>
+        </div>
+     </section>
+    </main>
+
+    <footer>
+        <div class="copyrighttext">
+            <a href="#">@Altcampus</a>
+        </div>
+        <div class="social-links">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
+    </footer>
+</body>
+</html>
