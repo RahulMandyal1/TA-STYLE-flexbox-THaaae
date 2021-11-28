@@ -1,0 +1,191 @@
+ /* css reset code  */
+
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css  reset code ends here  */
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+/* <!-- navigationsection starts from here  -->  */
+#navigationsection{
+    background-color: #2f2fa2;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.1);
+}
+#navigationsection nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 9% ;
+}
+#navigationsection nav .logo{
+    font-weight: 600;
+    font-size: 25px;
+}
+#navigationsection nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#navigationsection nav ul li{
+    margin-left: 20px;
+}
+#navigationsection nav ul li a{
+    font-size: 17px;
+}
+/* <!-- navigationsection starts from here  -->  */
+
+/* main box styling starts from here  */
+main{
+    padding: 20px 9%;
+}
+
+/* blog section starts form here */
+#blogsection{
+    /* min-height: 50vh; */
+    /* background-color: red; */
+}
+#blogsection .article-container{
+   
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow:  3px 3px 10px rgba(0, 0,0, 0.1) ,-3px -3px 10px rgba(0, 0,0, 0.1);
+}
+
+#blogsection .article-container .article-content{
+    min-width: 660px;
+  
+    
+}
+#blogsection .article-container .article-content .article-title h1{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+#blogsection .article-container .article-content  .article-description{
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+#blogsection .article-container .article-image{
+    min-width: 550px;
+    
+ 
+}
+#blogsection .article-container .article-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+
+/* blogsection ends  here  */
+
+/* gallery section starts from here  */
+#gallerysection{
+    margin:30px 0 0 0;
+
+}
+
+#gallerysection h1{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    color: #242482;
+}
+#gallerysection .gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+#gallerysection .gallery-container .gallery-images{
+    width: 395px;
+    height: 250px;
+    margin: 10px;
+}
+#gallerysection .gallery-container .gallery-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* gallery section  ends  here  */
+
+/* main ends here  */
+
+/* footer section starts from here  */
+footer{
+ 
+    padding: 20px 9%;
+    background-color: #2f2fa2;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #FF0600;
+}
+
+/* footer section ends here  */
