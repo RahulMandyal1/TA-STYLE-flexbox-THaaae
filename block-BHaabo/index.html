@@ -6,3 +6,94 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+
+    <!-- font awesome  cdn  links for custom font icons  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="navigation-section">
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="useraccount-container">
+                <div class="user-notification">
+                    <img src="assets/icons/bell.svg" alt="">
+                </div>
+                <div class="useraccount-detail">
+                        <a href="#">Sarah jone</a>
+                        <img src="assets/icons/user.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+         <section id="blog-dashboard">
+              <div class="blog-dashboard-container">
+                  <div class="dashboard-menus">
+                      <div class="dashboard-menus-wrapper">
+                      <a href="#"><img src="assets/icons/dashboard.svg"  alt="Dashboardsvg">Dashboard</a>
+                      <a href="#" class="active-menu"><img src="assets/icons/article.svg"    alt="Aarticles svg">Articles</a>
+                      <a href="#"><img src="assets/icons/analytics.svg"  alt="Analytics svg">Analytics</a>
+                      <a href="#"><img src="assets/icons/inbox.svg"      alt="Inbox svg">Inbox</a>
+                      <a href="#"><img src="assets/icons/setting.svg"    alt="Setting svg">Setting</a>
+                    </div>
+                      <div class="dashboardbtn">
+                      <a href="#" class="dashboard-btn"><img src="assets/icons/log-out.svg" alt="">Logout</a>
+                    </div>
+               </div>
+ <!-- article styling starts from here  -->
+                  <div class="blog-container">
+                      <article>
+                          <div class="article-image">
+                              <img src="assets/01.png" alt="articleimage">
+                          </div>
+                          <header class="article-heading">
+                              <h1>Why we are doing  Altcampus ?</h1>
+                          </header>
+                          <div class="article-description">
+                              <p>
+                                  AltCampus is a 6 month intensive
+                                   program that helps you learn full
+                                  -stack web development. A Programming
+                                    bootcamp in India. No upfront payment.
+                                    AltCampus offers a six-month in-person
+                                     programming bootcamp in Dharamshala, India,
+                                      The full stack web development program covers 
+                                      HTML, CSS, Core JavaScript, React, Redux, 
+                                      Node.js, and Databases. Every week they do
+                                       an evening session on topics that they think
+                                        will help you in the future,
+
+                              </p>
+                          </div>
+                          <a href="#" class="article-btn">Read more</a>
+                      </article>
+                  </div>
+        <!-- article styling ends here  -->
+              </div>
+         </section>
+    </main>
+
+    <!-- footer section starts from here  -->
+
+    <footer>
+        <div class="copyright-text">
+            @AltCampus
+        </div>
+        <div class="social-links">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
+    </footer>
+    <!-- footer section ends  here  -->
+</body>
+</html>
