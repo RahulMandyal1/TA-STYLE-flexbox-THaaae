@@ -1,0 +1,216 @@
+/* css reset code starts from here  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* css reset code ends here  */
+
+/* customized  css form here  */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight:500;
+}
+
+/* navigation section starts from here  */
+
+#navigation-section {
+    padding: 20px 7%;
+    background-color: #222946;
+}
+
+#navigation-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation-section nav .logo img{
+    width: 100px;
+}
+
+#navigation-section nav .useraccount-container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#navigation-section nav .useraccount-container a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    align-self: center;
+    font-size: 25px;
+}
+#navigation-section nav .useraccount-container img{
+    margin: 0 20px;
+}
+#navigation-section nav .useraccount-container .useraccount-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* navigation section ends here  */
+
+/* main section strats from here   */
+main{
+    padding: 40px 7%;
+}
+
+/* blog-dashboard section starts  from here  */
+
+#blog-dashboard{
+    width: 100%;
+    height: 80vh;
+    /* background-color:red; */
+}
+.blog-dashboard-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    align-items: flex-start;
+}
+
+.blog-dashboard-container .dashboard-menus{
+    width:25%;
+    height: 100%;
+    background-color:rgb(163,202,234);
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+ .dashboard-menus .dashboard-menus-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+ .dashboard-menus .dashboard-menus-wrapper a{
+    display: inline-block;
+    padding:20px ;
+
+    
+}
+.dashboard-menus .dashboard-menus-wrapper .active-menu{
+    color: #FF7B29;
+    border:3px solid #FF7B29;
+    border-radius:5px;
+}
+  .dashboard-menus .dashboard-menus-wrapper img{
+    margin: 0 10px 0 0;
+}
+.dashboard-menus .dashboardbtn {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.dashboard-menus .dashboardbtn  a{
+    display: inline-block;
+    padding:10px 20px ;
+}
+.dashboard-menus .dashboardbtn  img{
+    margin: 0 10px 0 0;
+}
+
+/* blog container styling starts from here  */
+
+.blog-dashboard-container .blog-container{
+    width: 73%;
+    height: 100%;
+    background-color: rgb(242,248,255);
+    margin:  0 0 0 40px;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.blog-container article{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog-container article .article-image{
+    width: 100%;
+    height: 300px;
+}
+.blog-container article .article-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:16px;
+}
+
+.blog-container article header{
+    margin: 20px 0;
+}
+.blog-container article header h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.blog-container article .article-description{
+    margin: 0 0 20px 0;
+}
+.blog-container article .article-description p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.blog-container article .article-btn{
+    display: inline-block;
+    margin: 10px 0 0 0;
+    background-color: #37B667;
+    padding: 12px 16px;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+/* blog-dashboard section ends here  */
+
+/* footer section starts from here  */
+
+footer{
+    padding: 40px 7%;
+    background-color: #222946;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+footer .social-links i{
+
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+/* footer section ends here  */
